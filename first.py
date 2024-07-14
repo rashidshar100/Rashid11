@@ -84,32 +84,7 @@ def __init__(self):
         self.ok = []
         self.cp = []
         self.loop = 0
-try:
- prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all').text
- open('.prox.txt','w').write(prox)
-except Exception as e:
- print('')
-prox=open('.prox.txt','r').read().splitlines()
-for xd in range(99999):
-    a='Nokia'
-    b=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    c=random.randrange(1, 99)
-    d='/GoBrowser/'
-    e='1.6.0.'
-    f=random.randrange(1, 99)
-    uaku2=(f'{a}{b}{c}{d}{e}{f}')
-    ugen.append(uaku2)
-for ua in range(99999):
-      a='Mozilla/5.0 (Linux; Android'
-      b=random.choice(['5.1.1' , '6.0.1' , '7.1.1' , '12' , '13' , '14' , '15'])
-      y=random.choice(['SM-J320H' , 'SM-J3109' , 'J320FN' , 'SM-J320P' , 'SM-J320F' , 'SM-J320G' , 'SM-J320Y'])
-      c='Build/RPXS31.Q2-58-17-4-4; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
-      d=random.randrange(40,115)
-      e='0'
-      f=random.randrange(99999,100000)
-      g=random.randrange(1,100)
-      h='Mobile Safari/537.36'
-      ug=(f"{a} {b}; {y} {c}{d}.{e}.{f}.{g} {h}")
+
       ugen.append(ug)
 for ua in range(99999):
 	a='Mozilla/5.0 (Linux; Android'
